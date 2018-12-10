@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Bellota";
+    src: url('font/Bellota-Regular.otf');
+    }
+header{
+    background: #303030;
+}
+.logo{
+        text-align:center;
+}
+img{
+    width: 200px;
+}
+
+
+body{
+    background: -webkit-radial-gradient(#15c5bd, #303030);
+    background: radial-gradient(#15c5bd, #303030);
+    font-family: "Bellota";
+}
+h1{
+    text-decoration: dashed underline overline;
+    color:  #303030;
+    text-align:center;
+    padding: 25px;
+    
+}
+
+
+p{ 
+    font-size: 1.5em;
+}
+.contact-form{
+    background: #303030;
+    color:  #fff;
+    margin-bottom: 5%;
+    width: 60%;
+    border-radius: 1rem;
+    opacity: 0.8;
+    box-shadow: #15c5bd 0px 0px 16px 10px;
+    
+}
+.contact-form .form-control{
+    border-radius:1rem;
+    box-shadow: #15c5bd 0px 0px 2px 2px;
+}
+
+.contact-form form{
+    padding: 5%;
+}
+
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #15c5bd;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.hide-robot{
+    visibility: hidden;
+}
